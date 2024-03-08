@@ -1,5 +1,9 @@
-package com.example.demo
+package com.example.demo.Service
 
+import com.example.demo.Controller.UserInfo
+import com.example.demo.Repository.UserInfoEntity
+import com.example.demo.Repository.UserInfoRepository
+import com.example.demo.Service.UserInfoServiceImpl
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test

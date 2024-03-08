@@ -1,4 +1,4 @@
-package com.example.demo
+package com.example.demo.Repository
 
 import jakarta.persistence.*
 import org.springframework.data.jpa.repository.JpaRepository

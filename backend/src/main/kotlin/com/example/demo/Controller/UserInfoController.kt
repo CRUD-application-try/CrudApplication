@@ -1,5 +1,6 @@
-package com.example.demo
+package com.example.demo.Controller
 
+import com.example.demo.Service.UserInfoService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
@@ -7,7 +8,7 @@ import java.util.UUID
 
 @RestController
 @RequestMapping("/api")
-class UserInfoController(val service:UserInfoService) {
+class UserInfoController(val service: UserInfoService) {
     @GetMapping("/userinfo")
     fun getUserInfo() : List<UserInfo>{
        return service.getUserInfoService()
